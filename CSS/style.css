@@ -1,0 +1,63 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+body .header {
+  width: 100%;
+  height: 100vh;
+}
+
+body .header .nav {
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  height: 5vh;
+}
+
+body .header .nav ul {
+  text-align: center;
+  line-height: 5vh;
+}
+
+body .header .nav ul li {
+  display: inline;
+  margin-right: 50px;
+  color: #ccc;
+}
+
+body .header .nav ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+body .header .head-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(/ASSETS/IMG/main.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .header .logo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+body .header .logo .logo-text {
+  font-family: 'Arizonia', cursive;
+  line-height: 100vh;
+  font-size: 80pt;
+  color: #fadbff;
+}
+/*# sourceMappingURL=style.css.map */
